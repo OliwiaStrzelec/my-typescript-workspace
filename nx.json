@@ -44,5 +44,5 @@
     "version": { "preVersionCommand": "npx nx run-many -t build" }
   },
   "targetDefaults": { "test": { "dependsOn": ["^build"] } },
-  "nxCloudId": "69244f5e5c017f0402a72368"
+  "neverConnectToCloud": true
 }
